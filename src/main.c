@@ -1,4 +1,4 @@
-#include "main.h"
+#include "commons.h"
 
 int main(int argc, const char * argv[]) 
 {
@@ -11,8 +11,10 @@ int main(int argc, const char * argv[])
     while (1)
     {
         prepareScene();
+        
+        SDL_SetRenderDrawColor(app.renderer, 255, 255, 255, 255);
 
-        doInput();
+        processInput();
 
         presentScene();
 

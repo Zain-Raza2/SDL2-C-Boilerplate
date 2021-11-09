@@ -1,6 +1,6 @@
 #include "commons.h"
 
-void doInput(void)
+void processInput(void)
 {
     SDL_Event event;
 

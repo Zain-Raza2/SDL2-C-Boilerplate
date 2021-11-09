@@ -28,7 +28,7 @@ void initSDL(void)
 
     if (!app.renderer) 
     {
-        printf("Failed to craete renderer: %s\n", SDL_GetError());
+        printf("Failed to create renderer: %s\n", SDL_GetError());
         exit(1);
     }
 }

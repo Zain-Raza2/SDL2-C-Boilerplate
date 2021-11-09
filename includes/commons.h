@@ -8,8 +8,9 @@
 App app;
 
 extern void initSDL(void);
+extern void cleanup(void);
 extern void prepareScene(void);
-extern void doInput(void);
+extern void processInput(void);
 extern void presentScene(void);
 
 #endif
