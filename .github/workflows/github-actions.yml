@@ -1,0 +1,17 @@
+# name: Drivers action
+# on: [push]
+# jobs:
+#   Explore-Github-Actions:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Download Repository
+#         uses: actions/checkout@v2
+      
+#       - name: Make the Driver 🛠️
+#         run: make
+        
+#       - name: Exit programme 🛑
+#         run: ^C
+      
+#       - name: Clean up 🧹
+#         run: make clean
