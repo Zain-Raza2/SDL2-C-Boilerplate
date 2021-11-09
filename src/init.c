@@ -1,4 +1,4 @@
-#include "commons.h"
+#include "Core/init.h"
 
 void initSDL(void) 
 {
