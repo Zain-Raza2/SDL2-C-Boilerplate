@@ -11,8 +11,6 @@ int main(int argc, const char * argv[])
     while (1)
     {
         prepareScene();
-        
-        SDL_SetRenderDrawColor(app.renderer, 255, 255, 255, 255);
 
         processInput();
 
